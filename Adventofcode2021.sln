@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day1_sonar_sweep", "day1_so
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day1_sonar_sweep_sliding_window", "day1_sonar_sweep_sliding_window\day1_sonar_sweep_sliding_window.csproj", "{BC32AA84-7BF4-41D0-BAB0-7203BDC571AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day2_dive", "day2_dive\day2_dive.csproj", "{96943674-6A26-4C2F-AAA3-A84AC77D9A59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{BC32AA84-7BF4-41D0-BAB0-7203BDC571AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC32AA84-7BF4-41D0-BAB0-7203BDC571AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC32AA84-7BF4-41D0-BAB0-7203BDC571AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96943674-6A26-4C2F-AAA3-A84AC77D9A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96943674-6A26-4C2F-AAA3-A84AC77D9A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96943674-6A26-4C2F-AAA3-A84AC77D9A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96943674-6A26-4C2F-AAA3-A84AC77D9A59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
