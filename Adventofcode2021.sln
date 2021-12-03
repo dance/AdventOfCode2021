@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day1_sonar_sweep_sliding_wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day2_dive", "day2_dive\day2_dive.csproj", "{96943674-6A26-4C2F-AAA3-A84AC77D9A59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day3_binary_diagnostic", "day3_binary_diagnostic\day3_binary_diagnostic.csproj", "{E7C4F72C-BE0E-4B62-9E9C-10E57AE44A05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{96943674-6A26-4C2F-AAA3-A84AC77D9A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96943674-6A26-4C2F-AAA3-A84AC77D9A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96943674-6A26-4C2F-AAA3-A84AC77D9A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7C4F72C-BE0E-4B62-9E9C-10E57AE44A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C4F72C-BE0E-4B62-9E9C-10E57AE44A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C4F72C-BE0E-4B62-9E9C-10E57AE44A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C4F72C-BE0E-4B62-9E9C-10E57AE44A05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
