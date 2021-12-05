@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day3_binary_diagnostic", "d
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day4_giant_squid", "day4_giant_squid\day4_giant_squid.csproj", "{C8B16BB0-A8A2-4047-8FFE-1F47B05CE2EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day5_hydrothermal_venture", "day5_hydrothermal_venture\day5_hydrothermal_venture.csproj", "{733CBAAF-3BEC-474E-879A-6143DF949B24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{C8B16BB0-A8A2-4047-8FFE-1F47B05CE2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8B16BB0-A8A2-4047-8FFE-1F47B05CE2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8B16BB0-A8A2-4047-8FFE-1F47B05CE2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{733CBAAF-3BEC-474E-879A-6143DF949B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733CBAAF-3BEC-474E-879A-6143DF949B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733CBAAF-3BEC-474E-879A-6143DF949B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733CBAAF-3BEC-474E-879A-6143DF949B24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
