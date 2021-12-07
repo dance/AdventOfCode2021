@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day5_hydrothermal_venture",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day6_lanternfish", "day6_lanternfish\day6_lanternfish.csproj", "{BF2BFFB3-6341-4FC9-9B34-4F9D37B95B31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day7_treachery_of_whales", "day7_treachery_of_whales\day7_treachery_of_whales.csproj", "{559B82F2-1285-4F96-91EE-262CA298DA47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{BF2BFFB3-6341-4FC9-9B34-4F9D37B95B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF2BFFB3-6341-4FC9-9B34-4F9D37B95B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF2BFFB3-6341-4FC9-9B34-4F9D37B95B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{559B82F2-1285-4F96-91EE-262CA298DA47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559B82F2-1285-4F96-91EE-262CA298DA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559B82F2-1285-4F96-91EE-262CA298DA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559B82F2-1285-4F96-91EE-262CA298DA47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
