@@ -80,13 +80,15 @@ namespace day8_seven_segment_search
             foreach (var entry in input)
             {
                 string[] inDigitsSorted = entry.digitsInput.OrderBy(d => d.Length).ToArray();
-                Debug.Assert(inDigitsSorted.Length == 10, "expected all digits from 0 to 9");
                 char[] one = inDigitsSorted[0].ToCharArray();
                 char[] seven = inDigitsSorted[1].ToCharArray();
                 char[] four = inDigitsSorted[2].ToCharArray();
+                #region asserts
+                Debug.Assert(inDigitsSorted.Length == 10, "expected all digits from 0 to 9");
                 Debug.Assert(one.Length == 2, "expected to get 'one'");
                 Debug.Assert(seven.Length == 3, "expected to get 'seven'");
                 Debug.Assert(four.Length == 4, "expected to get 'four'");
+                #endregion
                 // after analyzing these three digits we have following:
                 // one segment 'a' mapped exactly (a in 7, as 1=cf and 7=acf)
                 // two segments ('c','f') paired mapped to another pair
@@ -96,10 +98,12 @@ namespace day8_seven_segment_search
                 char[] cf = one;
                 char[] bd = four.Except(cf).ToArray();
                 char[] eg = Eight.Except(a).Except(cf).Except(bd).ToArray();
+                #region asserts
                 Debug.Assert(a.Length == 1, "a.Length == 1");
                 Debug.Assert(cf.Length == 2, "cf.Length == 2");
                 Debug.Assert(bd.Length == 2, "bd.Length == 2");
                 Debug.Assert(eg.Length == 2, "eg.Length == 2");
+                #endregion
                 // now we make all possible remap combinations and check them against input
                 string remap = FindRemap(inDigitsSorted, a, cf, bd, eg);
                 // decode using remap
