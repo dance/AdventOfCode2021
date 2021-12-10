@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day8_seven_segment_search",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day9_smoke_basin", "day9_smoke_basin\day9_smoke_basin.csproj", "{0253AA5B-9AE0-4BE6-970F-210BE8633554}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day10_syntax_scoring", "day10_syntax_scoring\day10_syntax_scoring.csproj", "{332D7355-0901-4893-8206-6C77DAE16451}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{0253AA5B-9AE0-4BE6-970F-210BE8633554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0253AA5B-9AE0-4BE6-970F-210BE8633554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0253AA5B-9AE0-4BE6-970F-210BE8633554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{332D7355-0901-4893-8206-6C77DAE16451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{332D7355-0901-4893-8206-6C77DAE16451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{332D7355-0901-4893-8206-6C77DAE16451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{332D7355-0901-4893-8206-6C77DAE16451}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
