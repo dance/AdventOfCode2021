@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day9_smoke_basin", "day9_sm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day10_syntax_scoring", "day10_syntax_scoring\day10_syntax_scoring.csproj", "{332D7355-0901-4893-8206-6C77DAE16451}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day11_dumbo_octopus", "day11_dumbo_octopus\day11_dumbo_octopus.csproj", "{02A03858-F93E-4944-AAF6-90FB69A5A976}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{332D7355-0901-4893-8206-6C77DAE16451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{332D7355-0901-4893-8206-6C77DAE16451}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{332D7355-0901-4893-8206-6C77DAE16451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A03858-F93E-4944-AAF6-90FB69A5A976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A03858-F93E-4944-AAF6-90FB69A5A976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A03858-F93E-4944-AAF6-90FB69A5A976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A03858-F93E-4944-AAF6-90FB69A5A976}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
