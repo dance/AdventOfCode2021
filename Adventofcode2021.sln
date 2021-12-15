@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day13_transparent_origami",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day14_extended_polymerization", "day14_extended_polymerization\day14_extended_polymerization.csproj", "{72CE1EC6-60A9-4827-B9BC-2344C0965BCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day15_chiton", "day15_chiton\day15_chiton.csproj", "{F6D11B19-C089-4496-91D7-2B6B0818BB6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{72CE1EC6-60A9-4827-B9BC-2344C0965BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72CE1EC6-60A9-4827-B9BC-2344C0965BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72CE1EC6-60A9-4827-B9BC-2344C0965BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D11B19-C089-4496-91D7-2B6B0818BB6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D11B19-C089-4496-91D7-2B6B0818BB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D11B19-C089-4496-91D7-2B6B0818BB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D11B19-C089-4496-91D7-2B6B0818BB6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
