@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
+using utils;
 
 namespace day15_chiton;
 
@@ -11,7 +12,8 @@ class Program
         // Part1("test_input.txt", 10);
         Part1("input.txt", 100);
         // Part2("test_input.txt", 10);
-        Part2("input.txt", 100);
+        using (new MyStopwatch())
+            Part2("input.txt", 100);
     }
 
     static void Part1(string filename, int dim)
@@ -57,7 +59,7 @@ class Program
                 int newValue = map[i % dim, j % dim] + sectionX + j / dim;
                 if (newValue >= 10)
                     newValue -= 9;
-                Debug.Assert(newValue >= 1 && newValue <= 9);
+                Debug.Assert(newValue is >= 1 and <= 9);
                 fullMap[i, j] = newValue;
             }
         }
