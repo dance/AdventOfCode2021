@@ -3,11 +3,11 @@
 using System.Collections.Concurrent;
 
 // test input
-// Part1((20, 30), (-10, -5));
+// Solve((20, 30), (-10, -5));
 // actual input
-Part1((241, 273), (-97, -63));
+Solve((241, 273), (-97, -63));
 
-static void Part1((int x1, int x2) rangeX, (int y1, int y2) rangeY)
+static void Solve((int x1, int x2) rangeX, (int y1, int y2) rangeY)
 {
     int xMin = int.MaxValue;
     int xMax = 0;
